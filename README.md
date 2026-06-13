@@ -2,6 +2,8 @@
 
 **AI-Assisted Probabilistic Revenue & ROAS Forecasting Platform for E-commerce Marketing Agencies**
 
+[Repository: karanstark/ForecastIQ](https://github.com/karanstark/ForecastIQ)
+
 ## Overview
 ForecastIQ evaluates historical e-commerce campaign datasets (Google Ads, Meta Ads, Bing Ads) to generate rolling future revenue and Return on Ad Spend (ROAS) predictions using a robust LightGBM machine learning pipeline.
 
@@ -27,8 +29,8 @@ ForecastIQ/
 ## Setup Instructions
 ```bash
 # 1. Clone the repository
-git clone <repository_url>
-cd forecast-iq
+git clone https://github.com/karanstark/ForecastIQ.git
+cd ForecastIQ
 
 # 2. Install dependencies
 pip install -r requirements.txt

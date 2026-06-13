@@ -35,6 +35,8 @@ cd ForecastIQ
 pip install -r requirements.txt
 ```
 
+> Evaluation note: The judged pipeline runs entirely through `run.sh`. Do not require notebooks, prompts, or network calls during evaluation.
+
 ## Running the Evaluation Pipeline
 
 The primary method for interacting with this prototype is via the automated `run.sh` script.
@@ -44,6 +46,8 @@ This script guarantees 100% offline, reproducible execution without relying on e
 ```bash
 ./run.sh ./data ./pickle/model.pkl ./output/predictions.csv
 ```
+
+> This command must execute non-interactively and produce `predictions.csv` without any runtime network calls.
 
 ### Expected Output
 The script will read the unified historical datasets from `data/`, load the pre-trained LightGBM model from `pickle/model.pkl`, and output a formatted `predictions.csv` directly into the `output/` directory.

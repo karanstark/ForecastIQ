@@ -2,7 +2,6 @@
 
 **AI-Assisted Probabilistic Revenue & ROAS Forecasting Platform for E-commerce Marketing Agencies**
 
-[Repository: karanstark/ForecastIQ](https://github.com/karanstark/ForecastIQ)
 
 ## Overview
 ForecastIQ evaluates historical e-commerce campaign datasets (Google Ads, Meta Ads, Bing Ads) to generate rolling future revenue and Return on Ad Spend (ROAS) predictions using a robust LightGBM machine learning pipeline.
